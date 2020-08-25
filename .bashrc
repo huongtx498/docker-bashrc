@@ -1,0 +1,28 @@
+alias dve="docker -v"
+alias dil="docker images"
+alias dip="docker image prune -f"
+
+alias dkp="docker ps"
+alias dkpa="docker ps -a"
+alias dkp="docker container prune -f"
+alias dki="docker inspect"
+alias dks="docker start"
+alias dkd="docker down"
+alias dkr="docker restart"
+
+alias dnl="docker network ls"
+alias dni="docker network inspect"
+alias dnrm="docker network rm"
+alias dnp="docker network prune -f"
+
+alias dvc="docker volume create"
+alias dvl="docker volume ls"
+alias dvrm="docker volume rm"
+alias dvp="docker volume prune -f"
+alias dvi="docker volume inspect"
+
+alias dcv="docker-compose -v"
+alias dcu="docker-compose up"
+alias dcd="docker-compose down"
+alias dcb="docker-compose build --no-cache"
+alias dcc="docker-compose config"
